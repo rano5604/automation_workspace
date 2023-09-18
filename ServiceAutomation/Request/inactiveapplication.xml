@@ -1,0 +1,17 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bean="http://bean.license.ws.service.hsdl.soa.tigerit.com/">
+   <soapenv:Header><wsse:Security SOAP-ENV:mustUnderstand="0" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd"><wsse:UsernameToken xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd"><wsse:Username>system</wsse:Username><wsse:Password Type="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordText">61bd60c60d9fb60cc8fc7767669d40a1</wsse:Password></wsse:UsernameToken></wsse:Security></soapenv:Header>
+   <soapenv:Body>
+      <bean:getInactiveApplicationHistory>
+         <!--Optional:-->
+         <request>
+            <!--Optional:-->
+            <requestHeader>
+               <!--Optional:-->
+               <token>?</token>
+            </requestHeader>
+            <!--Optional:-->
+            <referenceNumber>edtest903</referenceNumber>
+         </request>
+      </bean:getInactiveApplicationHistory>
+   </soapenv:Body>
+</soapenv:Envelope>

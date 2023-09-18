@@ -1,0 +1,1094 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="5" total="29" passed="24">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Regession-Suite" duration-ms="104136" started-at="2022-07-26T10:17:55Z" finished-at="2022-07-26T10:19:39Z">
+    <groups>
+    </groups>
+    <test name="PIDSRegression" duration-ms="104136" started-at="2022-07-26T10:17:55Z" finished-at="2022-07-26T10:19:39Z">
+      <class name="regression.PidsRegressionSuite">
+        <test-method status="PASS" signature="OpenBrowser()[pri:0, instance:regression.PidsRegressionSuite@67b467e9]" name="OpenBrowser" is-config="true" duration-ms="7824" started-at="2022-07-26T16:17:55Z" finished-at="2022-07-26T16:18:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method status="PASS" signature="launchPIDS(java.lang.String, java.lang.String)[pri:0, instance:regression.PidsRegressionSuite@67b467e9]" name="launchPIDS" duration-ms="822" started-at="2022-07-26T16:18:03Z" finished-at="2022-07-26T16:18:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://192.168.4.94:8090/ntmc_admin_portal/login/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Login :: Prison Inmate Admin Portal]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchPIDS -->
+        <test-method status="PASS" signature="capture(org.testng.ITestResult)[pri:0, instance:regression.PidsRegressionSuite@67b467e9]" name="capture" is-config="true" duration-ms="269" started-at="2022-07-26T16:18:04Z" finished-at="2022-07-26T16:18:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=launchPIDS status=SUCCESS method=PidsRegressionSuite.launchPIDS(java.lang.String, java.lang.String)[pri:0, instance:regression.PidsRegressionSuite@67b467e9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- capture -->
+        <test-method status="PASS" signature="loginPIDS(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:regression.PidsRegressionSuite@67b467e9]" name="loginPIDS" duration-ms="2081" started-at="2022-07-26T16:18:04Z" finished-at="2022-07-26T16:18:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[central_admin_auto]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Dashboard]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Welcome: Automation Admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPIDS -->
+        <test-method status="PASS" signature="capture(org.testng.ITestResult)[pri:0, instance:regression.PidsRegressionSuite@67b467e9]" name="capture" is-config="true" duration-ms="169" started-at="2022-07-26T16:18:06Z" finished-at="2022-07-26T16:18:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginPIDS status=SUCCESS method=PidsRegressionSuite.loginPIDS(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:regression.PidsRegressionSuite@67b467e9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- capture -->
+        <test-method status="PASS" signature="openUserManagement(java.lang.String, java.lang.String)[pri:0, instance:regression.PidsRegressionSuite@67b467e9]" name="openUserManagement" duration-ms="1969" started-at="2022-07-26T16:18:06Z" finished-at="2022-07-26T16:18:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[User Management]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[User Management :: Prison Inmate Admin Portal]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUserManagement -->
+        <test-method status="PASS" signature="capture(org.testng.ITestResult)[pri:0, instance:regression.PidsRegressionSuite@67b467e9]" name="capture" is-config="true" duration-ms="327" started-at="2022-07-26T16:18:08Z" finished-at="2022-07-26T16:18:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=openUserManagement status=SUCCESS method=PidsRegressionSuite.openUserManagement(java.lang.String, java.lang.String)[pri:0, instance:regression.PidsRegressionSuite@67b467e9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- capture -->
+        <test-method status="PASS" signature="createUser(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:regression.PidsRegressionSuite@67b467e9]" name="createUser" duration-ms="7419" started-at="2022-07-26T16:18:09Z" finished-at="2022-07-26T16:18:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Create User]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test_Rano]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[985620]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sanaul Islam]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[01711084451]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Jail Admin]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Active]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method status="PASS" signature="capture(org.testng.ITestResult)[pri:0, instance:regression.PidsRegressionSuite@67b467e9]" name="capture" is-config="true" duration-ms="254" started-at="2022-07-26T16:18:16Z" finished-at="2022-07-26T16:18:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createUser status=SUCCESS method=PidsRegressionSuite.createUser(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:regression.PidsRegressionSuite@67b467e9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- capture -->
+        <test-method status="PASS" signature="searchUser(java.lang.String, java.lang.String)[pri:0, instance:regression.PidsRegressionSuite@67b467e9]" name="searchUser" duration-ms="4461" started-at="2022-07-26T16:18:16Z" finished-at="2022-07-26T16:18:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test_Rano]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Jail Admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchUser -->
+        <test-method status="PASS" signature="capture(org.testng.ITestResult)[pri:0, instance:regression.PidsRegressionSuite@67b467e9]" name="capture" is-config="true" duration-ms="223" started-at="2022-07-26T16:18:21Z" finished-at="2022-07-26T16:18:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchUser status=SUCCESS method=PidsRegressionSuite.searchUser(java.lang.String, java.lang.String)[pri:0, instance:regression.PidsRegressionSuite@67b467e9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- capture -->
+        <test-method status="PASS" signature="updateUser(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:regression.PidsRegressionSuite@67b467e9]" name="updateUser" duration-ms="1343" started-at="2022-07-26T16:18:21Z" finished-at="2022-07-26T16:18:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sanaul Rano]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Jail Operator]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Inactive]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[01711084451]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateUser -->
+        <test-method status="PASS" signature="capture(org.testng.ITestResult)[pri:0, instance:regression.PidsRegressionSuite@67b467e9]" name="capture" is-config="true" duration-ms="219" started-at="2022-07-26T16:18:22Z" finished-at="2022-07-26T16:18:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=updateUser status=SUCCESS method=PidsRegressionSuite.updateUser(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:regression.PidsRegressionSuite@67b467e9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- capture -->
+        <test-method status="PASS" signature="openRoleManagement(java.lang.String, java.lang.String)[pri:0, instance:regression.PidsRegressionSuite@67b467e9]" name="openRoleManagement" duration-ms="836" started-at="2022-07-26T16:18:23Z" finished-at="2022-07-26T16:18:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Role Management]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[User Management :: Prison Inmate Admin Portal]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openRoleManagement -->
+        <test-method status="PASS" signature="capture(org.testng.ITestResult)[pri:0, instance:regression.PidsRegressionSuite@67b467e9]" name="capture" is-config="true" duration-ms="154" started-at="2022-07-26T16:18:23Z" finished-at="2022-07-26T16:18:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=openRoleManagement status=SUCCESS method=PidsRegressionSuite.openRoleManagement(java.lang.String, java.lang.String)[pri:0, instance:regression.PidsRegressionSuite@67b467e9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- capture -->
+        <test-method status="PASS" signature="createRole(java.lang.String, java.lang.String)[pri:0, instance:regression.PidsRegressionSuite@67b467e9]" name="createRole" duration-ms="1767" started-at="2022-07-26T16:18:24Z" finished-at="2022-07-26T16:18:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test_Admin_Rano]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test Admin Rano]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createRole -->
+        <test-method status="PASS" signature="capture(org.testng.ITestResult)[pri:0, instance:regression.PidsRegressionSuite@67b467e9]" name="capture" is-config="true" duration-ms="614" started-at="2022-07-26T16:18:25Z" finished-at="2022-07-26T16:18:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createRole status=SUCCESS method=PidsRegressionSuite.createRole(java.lang.String, java.lang.String)[pri:0, instance:regression.PidsRegressionSuite@67b467e9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- capture -->
+        <test-method status="PASS" signature="clearCache(java.lang.String, java.lang.String)[pri:0, instance:regression.PidsRegressionSuite@67b467e9]" name="clearCache" duration-ms="3221" started-at="2022-07-26T16:18:26Z" finished-at="2022-07-26T16:18:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Setup]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Setup :: Prison Inmate Admin Portal]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearCache -->
+        <test-method status="PASS" signature="capture(org.testng.ITestResult)[pri:0, instance:regression.PidsRegressionSuite@67b467e9]" name="capture" is-config="true" duration-ms="143" started-at="2022-07-26T16:18:29Z" finished-at="2022-07-26T16:18:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clearCache status=SUCCESS method=PidsRegressionSuite.clearCache(java.lang.String, java.lang.String)[pri:0, instance:regression.PidsRegressionSuite@67b467e9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- capture -->
+        <test-method status="PASS" signature="searchRole(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:regression.PidsRegressionSuite@67b467e9]" name="searchRole" duration-ms="3984" started-at="2022-07-26T16:18:29Z" finished-at="2022-07-26T16:18:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Role Management]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[User Management :: Prison Inmate Admin Portal]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Test Admin Rano]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchRole -->
+        <test-method status="PASS" signature="capture(org.testng.ITestResult)[pri:0, instance:regression.PidsRegressionSuite@67b467e9]" name="capture" is-config="true" duration-ms="138" started-at="2022-07-26T16:18:33Z" finished-at="2022-07-26T16:18:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchRole status=SUCCESS method=PidsRegressionSuite.searchRole(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:regression.PidsRegressionSuite@67b467e9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- capture -->
+        <test-method status="PASS" signature="updatehRole(java.lang.String, java.lang.String)[pri:0, instance:regression.PidsRegressionSuite@67b467e9]" name="updatehRole" duration-ms="923" started-at="2022-07-26T16:18:34Z" finished-at="2022-07-26T16:18:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test_Admin_Rano]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test Admin Rano1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updatehRole -->
+        <test-method status="PASS" signature="capture(org.testng.ITestResult)[pri:0, instance:regression.PidsRegressionSuite@67b467e9]" name="capture" is-config="true" duration-ms="215" started-at="2022-07-26T16:18:34Z" finished-at="2022-07-26T16:18:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=updatehRole status=SUCCESS method=PidsRegressionSuite.updatehRole(java.lang.String, java.lang.String)[pri:0, instance:regression.PidsRegressionSuite@67b467e9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- capture -->
+        <test-method status="PASS" signature="launchUserAssignment(java.lang.String, java.lang.String)[pri:0, instance:regression.PidsRegressionSuite@67b467e9]" name="launchUserAssignment" duration-ms="766" started-at="2022-07-26T16:18:35Z" finished-at="2022-07-26T16:18:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[User Assignment]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[User Management :: Prison Inmate Admin Portal]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUserAssignment -->
+        <test-method status="PASS" signature="capture(org.testng.ITestResult)[pri:0, instance:regression.PidsRegressionSuite@67b467e9]" name="capture" is-config="true" duration-ms="171" started-at="2022-07-26T16:18:35Z" finished-at="2022-07-26T16:18:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=launchUserAssignment status=SUCCESS method=PidsRegressionSuite.launchUserAssignment(java.lang.String, java.lang.String)[pri:0, instance:regression.PidsRegressionSuite@67b467e9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- capture -->
+        <test-method status="PASS" signature="assignUser(java.lang.String, java.lang.String)[pri:0, instance:regression.PidsRegressionSuite@67b467e9]" name="assignUser" duration-ms="4256" started-at="2022-07-26T16:18:36Z" finished-at="2022-07-26T16:18:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test_Rano]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Bogra - District Jail]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assignUser -->
+        <test-method status="PASS" signature="capture(org.testng.ITestResult)[pri:0, instance:regression.PidsRegressionSuite@67b467e9]" name="capture" is-config="true" duration-ms="235" started-at="2022-07-26T16:18:40Z" finished-at="2022-07-26T16:18:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=assignUser status=SUCCESS method=PidsRegressionSuite.assignUser(java.lang.String, java.lang.String)[pri:0, instance:regression.PidsRegressionSuite@67b467e9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- capture -->
+        <test-method status="PASS" signature="createPrison(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:regression.PidsRegressionSuite@67b467e9]" name="createPrison" duration-ms="3183" started-at="2022-07-26T16:18:40Z" finished-at="2022-07-26T16:18:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test_Prison_Rano]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1000991]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Rajshahi]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[test@tigerit123.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Active]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPrison -->
+        <test-method status="PASS" signature="capture(org.testng.ITestResult)[pri:0, instance:regression.PidsRegressionSuite@67b467e9]" name="capture" is-config="true" duration-ms="200" started-at="2022-07-26T16:18:43Z" finished-at="2022-07-26T16:18:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createPrison status=SUCCESS method=PidsRegressionSuite.createPrison(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:regression.PidsRegressionSuite@67b467e9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- capture -->
+        <test-method status="PASS" signature="searchPrison(java.lang.String)[pri:0, instance:regression.PidsRegressionSuite@67b467e9]" name="searchPrison" duration-ms="2686" started-at="2022-07-26T16:18:43Z" finished-at="2022-07-26T16:18:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test_Prison_Rano]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchPrison -->
+        <test-method status="PASS" signature="capture(org.testng.ITestResult)[pri:0, instance:regression.PidsRegressionSuite@67b467e9]" name="capture" is-config="true" duration-ms="231" started-at="2022-07-26T16:18:46Z" finished-at="2022-07-26T16:18:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchPrison status=SUCCESS method=PidsRegressionSuite.searchPrison(java.lang.String)[pri:0, instance:regression.PidsRegressionSuite@67b467e9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- capture -->
+        <test-method status="PASS" signature="updatePrison(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:regression.PidsRegressionSuite@67b467e9]" name="updatePrison" duration-ms="2589" started-at="2022-07-26T16:18:46Z" finished-at="2022-07-26T16:18:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test_Prison_Rano1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Rajshahi3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test@tigerit1234.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Inactive]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updatePrison -->
+        <test-method status="PASS" signature="capture(org.testng.ITestResult)[pri:0, instance:regression.PidsRegressionSuite@67b467e9]" name="capture" is-config="true" duration-ms="285" started-at="2022-07-26T16:18:49Z" finished-at="2022-07-26T16:18:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=updatePrison status=SUCCESS method=PidsRegressionSuite.updatePrison(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:regression.PidsRegressionSuite@67b467e9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- capture -->
+        <test-method status="PASS" signature="createLookup(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:regression.PidsRegressionSuite@67b467e9]" name="createLookup" duration-ms="4364" started-at="2022-07-26T16:18:49Z" finished-at="2022-07-26T16:18:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TEST_LOOKUP]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[90002]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Test90002]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Active]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createLookup -->
+        <test-method status="PASS" signature="capture(org.testng.ITestResult)[pri:0, instance:regression.PidsRegressionSuite@67b467e9]" name="capture" is-config="true" duration-ms="247" started-at="2022-07-26T16:18:54Z" finished-at="2022-07-26T16:18:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createLookup status=SUCCESS method=PidsRegressionSuite.createLookup(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:regression.PidsRegressionSuite@67b467e9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- capture -->
+        <test-method status="PASS" signature="searchLookup(java.lang.String, java.lang.String)[pri:0, instance:regression.PidsRegressionSuite@67b467e9]" name="searchLookup" duration-ms="2854" started-at="2022-07-26T16:18:54Z" finished-at="2022-07-26T16:18:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[90002]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test90002]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchLookup -->
+        <test-method status="PASS" signature="capture(org.testng.ITestResult)[pri:0, instance:regression.PidsRegressionSuite@67b467e9]" name="capture" is-config="true" duration-ms="135" started-at="2022-07-26T16:18:57Z" finished-at="2022-07-26T16:18:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchLookup status=SUCCESS method=PidsRegressionSuite.searchLookup(java.lang.String, java.lang.String)[pri:0, instance:regression.PidsRegressionSuite@67b467e9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- capture -->
+        <test-method status="PASS" signature="updateLookup(java.lang.String, java.lang.String)[pri:0, instance:regression.PidsRegressionSuite@67b467e9]" name="updateLookup" duration-ms="1857" started-at="2022-07-26T16:18:57Z" finished-at="2022-07-26T16:18:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test90003]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Inactive]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateLookup -->
+        <test-method status="PASS" signature="capture(org.testng.ITestResult)[pri:0, instance:regression.PidsRegressionSuite@67b467e9]" name="capture" is-config="true" duration-ms="190" started-at="2022-07-26T16:18:59Z" finished-at="2022-07-26T16:18:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=updateLookup status=SUCCESS method=PidsRegressionSuite.updateLookup(java.lang.String, java.lang.String)[pri:0, instance:regression.PidsRegressionSuite@67b467e9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- capture -->
+        <test-method status="PASS" signature="openSearch(java.lang.String, java.lang.String)[pri:0, instance:regression.PidsRegressionSuite@67b467e9]" name="openSearch" duration-ms="1083" started-at="2022-07-26T16:18:59Z" finished-at="2022-07-26T16:19:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Search]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Search :: Prison Inmate Admin Portal]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openSearch -->
+        <test-method status="PASS" signature="capture(org.testng.ITestResult)[pri:0, instance:regression.PidsRegressionSuite@67b467e9]" name="capture" is-config="true" duration-ms="177" started-at="2022-07-26T16:19:00Z" finished-at="2022-07-26T16:19:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=openSearch status=SUCCESS method=PidsRegressionSuite.openSearch(java.lang.String, java.lang.String)[pri:0, instance:regression.PidsRegressionSuite@67b467e9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- capture -->
+        <test-method status="PASS" signature="seachByPrisonerID(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:regression.PidsRegressionSuite@67b467e9]" name="seachByPrisonerID" duration-ms="2914" started-at="2022-07-26T16:19:00Z" finished-at="2022-07-26T16:19:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6072022-002]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Bogra - District Jail]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Under trial]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- seachByPrisonerID -->
+        <test-method status="PASS" signature="capture(org.testng.ITestResult)[pri:0, instance:regression.PidsRegressionSuite@67b467e9]" name="capture" is-config="true" duration-ms="148" started-at="2022-07-26T16:19:03Z" finished-at="2022-07-26T16:19:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=seachByPrisonerID status=SUCCESS method=PidsRegressionSuite.seachByPrisonerID(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:regression.PidsRegressionSuite@67b467e9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- capture -->
+        <test-method status="PASS" signature="seachByPrisonerName(java.lang.String, java.lang.String)[pri:0, instance:regression.PidsRegressionSuite@67b467e9]" name="seachByPrisonerName" duration-ms="3164" started-at="2022-07-26T16:19:03Z" finished-at="2022-07-26T16:19:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bogra - District Jail]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mosan]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- seachByPrisonerName -->
+        <test-method status="PASS" signature="capture(org.testng.ITestResult)[pri:0, instance:regression.PidsRegressionSuite@67b467e9]" name="capture" is-config="true" duration-ms="157" started-at="2022-07-26T16:19:06Z" finished-at="2022-07-26T16:19:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=seachByPrisonerName status=SUCCESS method=PidsRegressionSuite.seachByPrisonerName(java.lang.String, java.lang.String)[pri:0, instance:regression.PidsRegressionSuite@67b467e9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- capture -->
+        <test-method status="FAIL" signature="seachByNID(java.lang.String, java.lang.String)[pri:0, instance:regression.PidsRegressionSuite@67b467e9]" name="seachByNID" duration-ms="2500" started-at="2022-07-26T16:19:07Z" finished-at="2022-07-26T16:19:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bogra - District Jail]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2858546860]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Prisoner Not Found expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Prisoner Not Found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at pages.Search.quickSearchByNID(Search.java:135)
+	at regression.PidsRegressionSuite.seachByNID(PidsRegressionSuite.java:234)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:663)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:849)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1157)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1200)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1125)
+	at org.testng.TestNG.run(TestNG.java:1033)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- seachByNID -->
+        <test-method status="PASS" signature="capture(org.testng.ITestResult)[pri:0, instance:regression.PidsRegressionSuite@67b467e9]" name="capture" is-config="true" duration-ms="134" started-at="2022-07-26T16:19:09Z" finished-at="2022-07-26T16:19:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=seachByNID status=FAILURE method=PidsRegressionSuite.seachByNID(java.lang.String, java.lang.String)[pri:0, instance:regression.PidsRegressionSuite@67b467e9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- capture -->
+        <test-method status="PASS" signature="seachByCaseNo(java.lang.String, java.lang.String)[pri:0, instance:regression.PidsRegressionSuite@67b467e9]" name="seachByCaseNo" duration-ms="2776" started-at="2022-07-26T16:19:09Z" finished-at="2022-07-26T16:19:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bogra - District Jail]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[06072022-003]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- seachByCaseNo -->
+        <test-method status="PASS" signature="capture(org.testng.ITestResult)[pri:0, instance:regression.PidsRegressionSuite@67b467e9]" name="capture" is-config="true" duration-ms="147" started-at="2022-07-26T16:19:12Z" finished-at="2022-07-26T16:19:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=seachByCaseNo status=SUCCESS method=PidsRegressionSuite.seachByCaseNo(java.lang.String, java.lang.String)[pri:0, instance:regression.PidsRegressionSuite@67b467e9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- capture -->
+        <test-method status="FAIL" signature="advancedSearch(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:regression.PidsRegressionSuite@67b467e9]" name="advancedSearch" duration-ms="13190" started-at="2022-07-26T16:19:12Z" finished-at="2022-07-26T16:19:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1601/22]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test. name (test)]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[(English)]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[01758135197]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Prisoner Not Found expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Prisoner Not Found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at pages.Search.advanceSearch(Search.java:283)
+	at regression.PidsRegressionSuite.advancedSearch(PidsRegressionSuite.java:252)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:663)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:849)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1157)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1200)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1125)
+	at org.testng.TestNG.run(TestNG.java:1033)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- advancedSearch -->
+        <test-method status="PASS" signature="capture(org.testng.ITestResult)[pri:0, instance:regression.PidsRegressionSuite@67b467e9]" name="capture" is-config="true" duration-ms="144" started-at="2022-07-26T16:19:25Z" finished-at="2022-07-26T16:19:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=advancedSearch status=FAILURE method=PidsRegressionSuite.advancedSearch(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:regression.PidsRegressionSuite@67b467e9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- capture -->
+        <test-method status="PASS" signature="openAFIS(java.lang.String, java.lang.String)[pri:0, instance:regression.PidsRegressionSuite@67b467e9]" name="openAFIS" duration-ms="705" started-at="2022-07-26T16:19:26Z" finished-at="2022-07-26T16:19:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AFIS Adjudication]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Adjudication :: Prison Inmate Admin Portal]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAFIS -->
+        <test-method status="PASS" signature="capture(org.testng.ITestResult)[pri:0, instance:regression.PidsRegressionSuite@67b467e9]" name="capture" is-config="true" duration-ms="164" started-at="2022-07-26T16:19:26Z" finished-at="2022-07-26T16:19:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=openAFIS status=SUCCESS method=PidsRegressionSuite.openAFIS(java.lang.String, java.lang.String)[pri:0, instance:regression.PidsRegressionSuite@67b467e9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- capture -->
+        <test-method status="FAIL" signature="matchVerifiedAFIS(java.lang.String, java.lang.String)[pri:0, instance:regression.PidsRegressionSuite@67b467e9]" name="matchVerifiedAFIS" duration-ms="3537" started-at="2022-07-26T16:19:26Z" finished-at="2022-07-26T16:19:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pending]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2211/2]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Pending Profile Not Found expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Pending Profile Not Found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at pages.AFISAdjudication.matchVerifiedAFIS(AFISAdjudication.java:75)
+	at regression.PidsRegressionSuite.matchVerifiedAFIS(PidsRegressionSuite.java:268)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:663)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:849)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1157)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1200)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1125)
+	at org.testng.TestNG.run(TestNG.java:1033)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- matchVerifiedAFIS -->
+        <test-method status="PASS" signature="capture(org.testng.ITestResult)[pri:0, instance:regression.PidsRegressionSuite@67b467e9]" name="capture" is-config="true" duration-ms="130" started-at="2022-07-26T16:19:30Z" finished-at="2022-07-26T16:19:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=matchVerifiedAFIS status=FAILURE method=PidsRegressionSuite.matchVerifiedAFIS(java.lang.String, java.lang.String)[pri:0, instance:regression.PidsRegressionSuite@67b467e9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- capture -->
+        <test-method status="FAIL" signature="matchClearAFIS(java.lang.String, java.lang.String)[pri:0, instance:regression.PidsRegressionSuite@67b467e9]" name="matchClearAFIS" duration-ms="3572" started-at="2022-07-26T16:19:30Z" finished-at="2022-07-26T16:19:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pending]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8/11/21/001]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Pending Profile Not Found expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Pending Profile Not Found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at pages.AFISAdjudication.matchClearAFIS(AFISAdjudication.java:177)
+	at regression.PidsRegressionSuite.matchClearAFIS(PidsRegressionSuite.java:277)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:663)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:849)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1157)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1200)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1125)
+	at org.testng.TestNG.run(TestNG.java:1033)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- matchClearAFIS -->
+        <test-method status="PASS" signature="capture(org.testng.ITestResult)[pri:0, instance:regression.PidsRegressionSuite@67b467e9]" name="capture" is-config="true" duration-ms="140" started-at="2022-07-26T16:19:34Z" finished-at="2022-07-26T16:19:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=matchClearAFIS status=FAILURE method=PidsRegressionSuite.matchClearAFIS(java.lang.String, java.lang.String)[pri:0, instance:regression.PidsRegressionSuite@67b467e9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- capture -->
+        <test-method status="FAIL" signature="viewFingerPrints(java.lang.String, java.lang.String)[pri:0, instance:regression.PidsRegressionSuite@67b467e9]" name="viewFingerPrints" duration-ms="4228" started-at="2022-07-26T16:19:34Z" finished-at="2022-07-26T16:19:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pending]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2211/2]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Pending Profile Not Found expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Pending Profile Not Found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at pages.AFISAdjudication.viewFingerPrint(AFISAdjudication.java:287)
+	at regression.PidsRegressionSuite.viewFingerPrints(PidsRegressionSuite.java:286)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:663)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:849)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1157)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1200)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1125)
+	at org.testng.TestNG.run(TestNG.java:1033)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewFingerPrints -->
+        <test-method status="PASS" signature="capture(org.testng.ITestResult)[pri:0, instance:regression.PidsRegressionSuite@67b467e9]" name="capture" is-config="true" duration-ms="140" started-at="2022-07-26T16:19:38Z" finished-at="2022-07-26T16:19:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=viewFingerPrints status=FAILURE method=PidsRegressionSuite.viewFingerPrints(java.lang.String, java.lang.String)[pri:0, instance:regression.PidsRegressionSuite@67b467e9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- capture -->
+        <test-method status="PASS" signature="Quit()[pri:0, instance:regression.PidsRegressionSuite@67b467e9]" name="Quit" is-config="true" duration-ms="1155" started-at="2022-07-26T16:19:38Z" finished-at="2022-07-26T16:19:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Quit -->
+      </class> <!-- regression.PidsRegressionSuite -->
+    </test> <!-- PIDSRegression -->
+  </suite> <!-- Regession-Suite -->
+</testng-results>

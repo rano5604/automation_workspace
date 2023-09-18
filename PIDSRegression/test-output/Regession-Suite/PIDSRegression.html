@@ -1,0 +1,402 @@
+<html>
+<head>
+<title>TestNG:  PIDSRegression</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>PIDSRegression</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>24/5/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Jul 26 16:17:55 BDT 2022</td>
+</tr>
+<tr><td>Total time:</td><td>104 seconds (104136 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='regression.PidsRegressionSuite.advancedSearch()'><b>advancedSearch</b><br>Test class: regression.PidsRegressionSuite<br>Parameters: 1601/22, test. name (test), (English), Male, 01758135197</td>
+<td><div><pre>java.lang.AssertionError: Prisoner Not Found expected [true] but found [false]
+	at pages.Search.advanceSearch(Search.java:283)
+	at regression.PidsRegressionSuite.advancedSearch(PidsRegressionSuite.java:252)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1446615966", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1446615966'><pre>java.lang.AssertionError: Prisoner Not Found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at pages.Search.advanceSearch(Search.java:283)
+	at regression.PidsRegressionSuite.advancedSearch(PidsRegressionSuite.java:252)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:663)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:849)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1157)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1200)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1125)
+	at org.testng.TestNG.run(TestNG.java:1033)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div></td>
+<td>13</td>
+<td>regression.PidsRegressionSuite@67b467e9</td></tr>
+<tr>
+<td title='regression.PidsRegressionSuite.matchClearAFIS()'><b>matchClearAFIS</b><br>Test class: regression.PidsRegressionSuite<br>Parameters: Pending, 8/11/21/001</td>
+<td><div><pre>java.lang.AssertionError: Pending Profile Not Found expected [true] but found [false]
+	at pages.AFISAdjudication.matchClearAFIS(AFISAdjudication.java:177)
+	at regression.PidsRegressionSuite.matchClearAFIS(PidsRegressionSuite.java:277)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace533140425", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace533140425'><pre>java.lang.AssertionError: Pending Profile Not Found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at pages.AFISAdjudication.matchClearAFIS(AFISAdjudication.java:177)
+	at regression.PidsRegressionSuite.matchClearAFIS(PidsRegressionSuite.java:277)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:663)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:849)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1157)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1200)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1125)
+	at org.testng.TestNG.run(TestNG.java:1033)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div></td>
+<td>3</td>
+<td>regression.PidsRegressionSuite@67b467e9</td></tr>
+<tr>
+<td title='regression.PidsRegressionSuite.matchVerifiedAFIS()'><b>matchVerifiedAFIS</b><br>Test class: regression.PidsRegressionSuite<br>Parameters: Pending, 2211/2</td>
+<td><div><pre>java.lang.AssertionError: Pending Profile Not Found expected [true] but found [false]
+	at pages.AFISAdjudication.matchVerifiedAFIS(AFISAdjudication.java:75)
+	at regression.PidsRegressionSuite.matchVerifiedAFIS(PidsRegressionSuite.java:268)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1972628089", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1972628089'><pre>java.lang.AssertionError: Pending Profile Not Found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at pages.AFISAdjudication.matchVerifiedAFIS(AFISAdjudication.java:75)
+	at regression.PidsRegressionSuite.matchVerifiedAFIS(PidsRegressionSuite.java:268)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:663)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:849)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1157)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1200)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1125)
+	at org.testng.TestNG.run(TestNG.java:1033)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div></td>
+<td>3</td>
+<td>regression.PidsRegressionSuite@67b467e9</td></tr>
+<tr>
+<td title='regression.PidsRegressionSuite.seachByNID()'><b>seachByNID</b><br>Test class: regression.PidsRegressionSuite<br>Parameters: Bogra - District Jail, 2858546860</td>
+<td><div><pre>java.lang.AssertionError: Prisoner Not Found expected [true] but found [false]
+	at pages.Search.quickSearchByNID(Search.java:135)
+	at regression.PidsRegressionSuite.seachByNID(PidsRegressionSuite.java:234)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2259527", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2259527'><pre>java.lang.AssertionError: Prisoner Not Found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at pages.Search.quickSearchByNID(Search.java:135)
+	at regression.PidsRegressionSuite.seachByNID(PidsRegressionSuite.java:234)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:663)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:849)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1157)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1200)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1125)
+	at org.testng.TestNG.run(TestNG.java:1033)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div></td>
+<td>2</td>
+<td>regression.PidsRegressionSuite@67b467e9</td></tr>
+<tr>
+<td title='regression.PidsRegressionSuite.viewFingerPrints()'><b>viewFingerPrints</b><br>Test class: regression.PidsRegressionSuite<br>Parameters: Pending, 2211/2</td>
+<td><div><pre>java.lang.AssertionError: Pending Profile Not Found expected [true] but found [false]
+	at pages.AFISAdjudication.viewFingerPrint(AFISAdjudication.java:287)
+	at regression.PidsRegressionSuite.viewFingerPrints(PidsRegressionSuite.java:286)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2085713965", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2085713965'><pre>java.lang.AssertionError: Pending Profile Not Found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at pages.AFISAdjudication.viewFingerPrint(AFISAdjudication.java:287)
+	at regression.PidsRegressionSuite.viewFingerPrints(PidsRegressionSuite.java:286)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:663)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:849)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1157)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1200)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1125)
+	at org.testng.TestNG.run(TestNG.java:1033)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div></td>
+<td>4</td>
+<td>regression.PidsRegressionSuite@67b467e9</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='regression.PidsRegressionSuite.assignUser()'><b>assignUser</b><br>Test class: regression.PidsRegressionSuite<br>Parameters: Test_Rano, Bogra - District Jail</td>
+<td></td>
+<td>4</td>
+<td>regression.PidsRegressionSuite@67b467e9</td></tr>
+<tr>
+<td title='regression.PidsRegressionSuite.clearCache()'><b>clearCache</b><br>Test class: regression.PidsRegressionSuite<br>Parameters: Setup, Setup :: Prison Inmate Admin Portal</td>
+<td></td>
+<td>3</td>
+<td>regression.PidsRegressionSuite@67b467e9</td></tr>
+<tr>
+<td title='regression.PidsRegressionSuite.createLookup()'><b>createLookup</b><br>Test class: regression.PidsRegressionSuite<br>Parameters: TEST_LOOKUP, 90002, Test90002, Active</td>
+<td></td>
+<td>4</td>
+<td>regression.PidsRegressionSuite@67b467e9</td></tr>
+<tr>
+<td title='regression.PidsRegressionSuite.createPrison()'><b>createPrison</b><br>Test class: regression.PidsRegressionSuite<br>Parameters: Test_Prison_Rano, 1000991, Rajshahi, test@tigerit123.com, Active</td>
+<td></td>
+<td>3</td>
+<td>regression.PidsRegressionSuite@67b467e9</td></tr>
+<tr>
+<td title='regression.PidsRegressionSuite.createRole()'><b>createRole</b><br>Test class: regression.PidsRegressionSuite<br>Parameters: Test_Admin_Rano, Test Admin Rano</td>
+<td></td>
+<td>1</td>
+<td>regression.PidsRegressionSuite@67b467e9</td></tr>
+<tr>
+<td title='regression.PidsRegressionSuite.createUser()'><b>createUser</b><br>Test class: regression.PidsRegressionSuite<br>Parameters: Create User, Test_Rano, 985620, Sanaul Islam, 01711084451, Jail Admin, Active</td>
+<td></td>
+<td>7</td>
+<td>regression.PidsRegressionSuite@67b467e9</td></tr>
+<tr>
+<td title='regression.PidsRegressionSuite.launchPIDS()'><b>launchPIDS</b><br>Test class: regression.PidsRegressionSuite<br>Parameters: http://192.168.4.94:8090/ntmc_admin_portal/login/, Login :: Prison Inmate Admin Portal</td>
+<td></td>
+<td>0</td>
+<td>regression.PidsRegressionSuite@67b467e9</td></tr>
+<tr>
+<td title='regression.PidsRegressionSuite.launchUserAssignment()'><b>launchUserAssignment</b><br>Test class: regression.PidsRegressionSuite<br>Parameters: User Assignment, User Management :: Prison Inmate Admin Portal</td>
+<td></td>
+<td>0</td>
+<td>regression.PidsRegressionSuite@67b467e9</td></tr>
+<tr>
+<td title='regression.PidsRegressionSuite.loginPIDS()'><b>loginPIDS</b><br>Test class: regression.PidsRegressionSuite<br>Parameters: central_admin_auto, 123456, Dashboard, Welcome: Automation Admin</td>
+<td></td>
+<td>2</td>
+<td>regression.PidsRegressionSuite@67b467e9</td></tr>
+<tr>
+<td title='regression.PidsRegressionSuite.openAFIS()'><b>openAFIS</b><br>Test class: regression.PidsRegressionSuite<br>Parameters: AFIS Adjudication, Adjudication :: Prison Inmate Admin Portal</td>
+<td></td>
+<td>0</td>
+<td>regression.PidsRegressionSuite@67b467e9</td></tr>
+<tr>
+<td title='regression.PidsRegressionSuite.openRoleManagement()'><b>openRoleManagement</b><br>Test class: regression.PidsRegressionSuite<br>Parameters: Role Management, User Management :: Prison Inmate Admin Portal</td>
+<td></td>
+<td>0</td>
+<td>regression.PidsRegressionSuite@67b467e9</td></tr>
+<tr>
+<td title='regression.PidsRegressionSuite.openSearch()'><b>openSearch</b><br>Test class: regression.PidsRegressionSuite<br>Parameters: Search, Search :: Prison Inmate Admin Portal</td>
+<td></td>
+<td>1</td>
+<td>regression.PidsRegressionSuite@67b467e9</td></tr>
+<tr>
+<td title='regression.PidsRegressionSuite.openUserManagement()'><b>openUserManagement</b><br>Test class: regression.PidsRegressionSuite<br>Parameters: User Management, User Management :: Prison Inmate Admin Portal</td>
+<td></td>
+<td>1</td>
+<td>regression.PidsRegressionSuite@67b467e9</td></tr>
+<tr>
+<td title='regression.PidsRegressionSuite.seachByCaseNo()'><b>seachByCaseNo</b><br>Test class: regression.PidsRegressionSuite<br>Parameters: Bogra - District Jail, 06072022-003</td>
+<td></td>
+<td>2</td>
+<td>regression.PidsRegressionSuite@67b467e9</td></tr>
+<tr>
+<td title='regression.PidsRegressionSuite.seachByPrisonerID()'><b>seachByPrisonerID</b><br>Test class: regression.PidsRegressionSuite<br>Parameters: 6072022-002, Bogra - District Jail, Under trial</td>
+<td></td>
+<td>2</td>
+<td>regression.PidsRegressionSuite@67b467e9</td></tr>
+<tr>
+<td title='regression.PidsRegressionSuite.seachByPrisonerName()'><b>seachByPrisonerName</b><br>Test class: regression.PidsRegressionSuite<br>Parameters: Bogra - District Jail, Mosan</td>
+<td></td>
+<td>3</td>
+<td>regression.PidsRegressionSuite@67b467e9</td></tr>
+<tr>
+<td title='regression.PidsRegressionSuite.searchLookup()'><b>searchLookup</b><br>Test class: regression.PidsRegressionSuite<br>Parameters: 90002, Test90002</td>
+<td></td>
+<td>2</td>
+<td>regression.PidsRegressionSuite@67b467e9</td></tr>
+<tr>
+<td title='regression.PidsRegressionSuite.searchPrison()'><b>searchPrison</b><br>Test class: regression.PidsRegressionSuite<br>Parameters: Test_Prison_Rano</td>
+<td></td>
+<td>2</td>
+<td>regression.PidsRegressionSuite@67b467e9</td></tr>
+<tr>
+<td title='regression.PidsRegressionSuite.searchRole()'><b>searchRole</b><br>Test class: regression.PidsRegressionSuite<br>Parameters: Role Management, User Management :: Prison Inmate Admin Portal, Test Admin Rano</td>
+<td></td>
+<td>3</td>
+<td>regression.PidsRegressionSuite@67b467e9</td></tr>
+<tr>
+<td title='regression.PidsRegressionSuite.searchUser()'><b>searchUser</b><br>Test class: regression.PidsRegressionSuite<br>Parameters: Test_Rano, Jail Admin</td>
+<td></td>
+<td>4</td>
+<td>regression.PidsRegressionSuite@67b467e9</td></tr>
+<tr>
+<td title='regression.PidsRegressionSuite.updateLookup()'><b>updateLookup</b><br>Test class: regression.PidsRegressionSuite<br>Parameters: Test90003, Inactive</td>
+<td></td>
+<td>1</td>
+<td>regression.PidsRegressionSuite@67b467e9</td></tr>
+<tr>
+<td title='regression.PidsRegressionSuite.updatePrison()'><b>updatePrison</b><br>Test class: regression.PidsRegressionSuite<br>Parameters: Test_Prison_Rano1, Rajshahi3, test@tigerit1234.com, Inactive</td>
+<td></td>
+<td>2</td>
+<td>regression.PidsRegressionSuite@67b467e9</td></tr>
+<tr>
+<td title='regression.PidsRegressionSuite.updateUser()'><b>updateUser</b><br>Test class: regression.PidsRegressionSuite<br>Parameters: Sanaul Rano, Jail Operator, Inactive, 01711084451</td>
+<td></td>
+<td>1</td>
+<td>regression.PidsRegressionSuite@67b467e9</td></tr>
+<tr>
+<td title='regression.PidsRegressionSuite.updatehRole()'><b>updatehRole</b><br>Test class: regression.PidsRegressionSuite<br>Parameters: Test_Admin_Rano, Test Admin Rano1</td>
+<td></td>
+<td>0</td>
+<td>regression.PidsRegressionSuite@67b467e9</td></tr>
+</table><p>
+</body>
+</html>

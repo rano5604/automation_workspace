@@ -1,0 +1,17 @@
+   <Card Number="39862" Name="SP0001832L00006">
+      <Status>Finished</Status>
+     <info>
+           <ChipSequenceNo>ChipSequenceNo</ChipSequenceNo>
+      	   <ChipSerialNo>ChipSerialNo</ChipSerialNo>
+     </info>
+      <RejectionUnit>Text</RejectionUnit>
+      <ErrorCode>0</ErrorCode>
+      <ErrorMessage>Text</ErrorMessage>
+      <FinishedAtTime>2022-05-17T22:56:53.2262520+06:00</FinishedAtTime>
+      <LicenseId>Text</LicenseId>
+      <ReferenceNo>ReferenceNo</ReferenceNo>
+      <Name>NameEn</Name>
+      <BirthDateEn>BirthDateEn</BirthDateEn>
+      <Authority>Text</Authority>
+      <ApplicationType>Text</ApplicationType>
+    </Card>

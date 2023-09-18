@@ -1,0 +1,1056 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 5 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Regession-Suite">
+              <span class="suite-name border-failed">Regession-Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Regession-Suite">
+                    <span>E:\automation_workspace\PIDSRegression\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Regession-Suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Regession-Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Regession-Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Regession-Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Regession-Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Regession-Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">29 methods, 5 failed,   24 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Regession-Suite" class="hide-methods failed suite-Regession-Suite"> (hide)</a> <!-- hide-methods failed suite-Regession-Suite -->
+                      <a href="#" panel-name="suite-Regession-Suite" class="show-methods failed suite-Regession-Suite"> (show)</a> <!-- show-methods failed suite-Regession-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Regession-Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regession-Suite" title="regression.PidsRegressionSuite" hash-for-method="advancedSearch(1601/22, test. name (test), (English), Male, 01758135197)">advancedSearch(1601/22, test. name (test), (English), Male, 01758135197)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regession-Suite" title="regression.PidsRegressionSuite" hash-for-method="matchClearAFIS(Pending, 8/11/21/001)">matchClearAFIS(Pending, 8/11/21/001)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regession-Suite" title="regression.PidsRegressionSuite" hash-for-method="matchVerifiedAFIS(Pending, 2211/2)">matchVerifiedAFIS(Pending, 2211/2)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regession-Suite" title="regression.PidsRegressionSuite" hash-for-method="seachByNID(Bogra - District Jail, 2858546860)">seachByNID(Bogra - District Jail, 2858546860)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regession-Suite" title="regression.PidsRegressionSuite" hash-for-method="viewFingerPrints(Pending, 2211/2)">viewFingerPrints(Pending, 2211/2)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Regession-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Regession-Suite" class="hide-methods passed suite-Regession-Suite"> (hide)</a> <!-- hide-methods passed suite-Regession-Suite -->
+                      <a href="#" panel-name="suite-Regession-Suite" class="show-methods passed suite-Regession-Suite"> (show)</a> <!-- show-methods passed suite-Regession-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Regession-Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regession-Suite" title="regression.PidsRegressionSuite" hash-for-method="assignUser(Test_Rano, Bogra - District Jail)">assignUser(Test_Rano, Bogra - District Jail)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regession-Suite" title="regression.PidsRegressionSuite" hash-for-method="clearCache(Setup, Setup :: Prison Inmate Admin Portal)">clearCache(Setup, Setup :: Prison Inmate Admin Portal)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regession-Suite" title="regression.PidsRegressionSuite" hash-for-method="createLookup(TEST_LOOKUP, 90002, Test90002, Active)">createLookup(TEST_LOOKUP, 90002, Test90002, Active)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regession-Suite" title="regression.PidsRegressionSuite" hash-for-method="createPrison(Test_Prison_Rano, 1000991, Rajshahi, test@tigerit123.com, Active)">createPrison(Test_Prison_Rano, 1000991, Rajshahi, test@tigerit123.com, Active)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regession-Suite" title="regression.PidsRegressionSuite" hash-for-method="createRole(Test_Admin_Rano, Test Admin Rano)">createRole(Test_Admin_Rano, Test Admin Rano)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regession-Suite" title="regression.PidsRegressionSuite" hash-for-method="createUser(Create User, Test_Rano, 985620, Sanaul Islam, 01711084451, Jail Admin, Active)">createUser(Create User, Test_Rano, 985620, Sanaul Islam, 01711084451, Jail Admin, Active)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regession-Suite" title="regression.PidsRegressionSuite" hash-for-method="launchPIDS(http://192.168.4.94:8090/ntmc_admin_portal/login/, Login :: Prison Inmate Admin Portal)">launchPIDS(http://192.168.4.94:8090/ntmc_admin_portal/login/, Login :: Prison Inmate Admin Portal)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regession-Suite" title="regression.PidsRegressionSuite" hash-for-method="launchUserAssignment(User Assignment, User Management :: Prison Inmate Admin Portal)">launchUserAssignment(User Assignment, User Management :: Prison Inmate Admin Portal)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regession-Suite" title="regression.PidsRegressionSuite" hash-for-method="loginPIDS(central_admin_auto, 123456, Dashboard, Welcome: Automation Admin)">loginPIDS(central_admin_auto, 123456, Dashboard, Welcome: Automation Admin)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regession-Suite" title="regression.PidsRegressionSuite" hash-for-method="openAFIS(AFIS Adjudication, Adjudication :: Prison Inmate Admin Portal)">openAFIS(AFIS Adjudication, Adjudication :: Prison Inmate Admin Portal)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regession-Suite" title="regression.PidsRegressionSuite" hash-for-method="openRoleManagement(Role Management, User Management :: Prison Inmate Admin Portal)">openRoleManagement(Role Management, User Management :: Prison Inmate Admin Portal)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regession-Suite" title="regression.PidsRegressionSuite" hash-for-method="openSearch(Search, Search :: Prison Inmate Admin Portal)">openSearch(Search, Search :: Prison Inmate Admin Portal)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regession-Suite" title="regression.PidsRegressionSuite" hash-for-method="openUserManagement(User Management, User Management :: Prison Inmate Admin Portal)">openUserManagement(User Management, User Management :: Prison Inmate Admin Portal)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regession-Suite" title="regression.PidsRegressionSuite" hash-for-method="seachByCaseNo(Bogra - District Jail, 06072022-003)">seachByCaseNo(Bogra - District Jail, 06072022-003)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regession-Suite" title="regression.PidsRegressionSuite" hash-for-method="seachByPrisonerID(6072022-002, Bogra - District Jail, Under trial)">seachByPrisonerID(6072022-002, Bogra - District Jail, Under trial)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regession-Suite" title="regression.PidsRegressionSuite" hash-for-method="seachByPrisonerName(Bogra - District Jail, Mosan)">seachByPrisonerName(Bogra - District Jail, Mosan)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regession-Suite" title="regression.PidsRegressionSuite" hash-for-method="searchLookup(90002, Test90002)">searchLookup(90002, Test90002)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regession-Suite" title="regression.PidsRegressionSuite" hash-for-method="searchPrison(Test_Prison_Rano)">searchPrison(Test_Prison_Rano)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regession-Suite" title="regression.PidsRegressionSuite" hash-for-method="searchRole(Role Management, User Management :: Prison Inmate Admin Portal, Test Admin Rano)">searchRole(Role Management, User Management :: Prison Inmate Admin Portal, Test Admin Rano)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regession-Suite" title="regression.PidsRegressionSuite" hash-for-method="searchUser(Test_Rano, Jail Admin)">searchUser(Test_Rano, Jail Admin)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regession-Suite" title="regression.PidsRegressionSuite" hash-for-method="updateLookup(Test90003, Inactive)">updateLookup(Test90003, Inactive)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regession-Suite" title="regression.PidsRegressionSuite" hash-for-method="updatePrison(Test_Prison_Rano1, Rajshahi3, test@tigerit1234.com, Inactive)">updatePrison(Test_Prison_Rano1, Rajshahi3, test@tigerit1234.com, Inactive)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regession-Suite" title="regression.PidsRegressionSuite" hash-for-method="updateUser(Sanaul Rano, Jail Operator, Inactive, 01711084451)">updateUser(Sanaul Rano, Jail Operator, Inactive, 01711084451)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regession-Suite" title="regression.PidsRegressionSuite" hash-for-method="updatehRole(Test_Admin_Rano, Test Admin Rano1)">updatehRole(Test_Admin_Rano, Test Admin Rano1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Regession-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Regession-Suite" class="panel Regession-Suite">
+          <div class="suite-Regession-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">regression.PidsRegressionSuite</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="advancedSearch(1601/22, test. name (test), (English), Male, 01758135197)">
+                  </a> <!-- advancedSearch(1601/22, test. name (test), (English), Male, 01758135197) -->
+                  <span class="method-name">advancedSearch</span>
+                  <span class="parameters">(1601/22, test. name (test), (English), Male, 01758135197)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Prisoner Not Found expected [true] but found [false]
+	at pages.Search.advanceSearch(Search.java:283)
+	at regression.PidsRegressionSuite.advancedSearch(PidsRegressionSuite.java:252)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="matchClearAFIS(Pending, 8/11/21/001)">
+                  </a> <!-- matchClearAFIS(Pending, 8/11/21/001) -->
+                  <span class="method-name">matchClearAFIS</span>
+                  <span class="parameters">(Pending, 8/11/21/001)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Pending Profile Not Found expected [true] but found [false]
+	at pages.AFISAdjudication.matchClearAFIS(AFISAdjudication.java:177)
+	at regression.PidsRegressionSuite.matchClearAFIS(PidsRegressionSuite.java:277)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="matchVerifiedAFIS(Pending, 2211/2)">
+                  </a> <!-- matchVerifiedAFIS(Pending, 2211/2) -->
+                  <span class="method-name">matchVerifiedAFIS</span>
+                  <span class="parameters">(Pending, 2211/2)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Pending Profile Not Found expected [true] but found [false]
+	at pages.AFISAdjudication.matchVerifiedAFIS(AFISAdjudication.java:75)
+	at regression.PidsRegressionSuite.matchVerifiedAFIS(PidsRegressionSuite.java:268)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="seachByNID(Bogra - District Jail, 2858546860)">
+                  </a> <!-- seachByNID(Bogra - District Jail, 2858546860) -->
+                  <span class="method-name">seachByNID</span>
+                  <span class="parameters">(Bogra - District Jail, 2858546860)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Prisoner Not Found expected [true] but found [false]
+	at pages.Search.quickSearchByNID(Search.java:135)
+	at regression.PidsRegressionSuite.seachByNID(PidsRegressionSuite.java:234)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="viewFingerPrints(Pending, 2211/2)">
+                  </a> <!-- viewFingerPrints(Pending, 2211/2) -->
+                  <span class="method-name">viewFingerPrints</span>
+                  <span class="parameters">(Pending, 2211/2)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Pending Profile Not Found expected [true] but found [false]
+	at pages.AFISAdjudication.viewFingerPrint(AFISAdjudication.java:287)
+	at regression.PidsRegressionSuite.viewFingerPrints(PidsRegressionSuite.java:286)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Regession-Suite-class-failed -->
+          <div class="suite-Regession-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">regression.PidsRegressionSuite</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="assignUser(Test_Rano, Bogra - District Jail)">
+                  </a> <!-- assignUser(Test_Rano, Bogra - District Jail) -->
+                  <span class="method-name">assignUser</span>
+                  <span class="parameters">(Test_Rano, Bogra - District Jail)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clearCache(Setup, Setup :: Prison Inmate Admin Portal)">
+                  </a> <!-- clearCache(Setup, Setup :: Prison Inmate Admin Portal) -->
+                  <span class="method-name">clearCache</span>
+                  <span class="parameters">(Setup, Setup :: Prison Inmate Admin Portal)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createLookup(TEST_LOOKUP, 90002, Test90002, Active)">
+                  </a> <!-- createLookup(TEST_LOOKUP, 90002, Test90002, Active) -->
+                  <span class="method-name">createLookup</span>
+                  <span class="parameters">(TEST_LOOKUP, 90002, Test90002, Active)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createPrison(Test_Prison_Rano, 1000991, Rajshahi, test@tigerit123.com, Active)">
+                  </a> <!-- createPrison(Test_Prison_Rano, 1000991, Rajshahi, test@tigerit123.com, Active) -->
+                  <span class="method-name">createPrison</span>
+                  <span class="parameters">(Test_Prison_Rano, 1000991, Rajshahi, test@tigerit123.com, Active)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createRole(Test_Admin_Rano, Test Admin Rano)">
+                  </a> <!-- createRole(Test_Admin_Rano, Test Admin Rano) -->
+                  <span class="method-name">createRole</span>
+                  <span class="parameters">(Test_Admin_Rano, Test Admin Rano)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createUser(Create User, Test_Rano, 985620, Sanaul Islam, 01711084451, Jail Admin, Active)">
+                  </a> <!-- createUser(Create User, Test_Rano, 985620, Sanaul Islam, 01711084451, Jail Admin, Active) -->
+                  <span class="method-name">createUser</span>
+                  <span class="parameters">(Create User, Test_Rano, 985620, Sanaul Islam, 01711084451, Jail Admin, Active)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="launchPIDS(http://192.168.4.94:8090/ntmc_admin_portal/login/, Login :: Prison Inmate Admin Portal)">
+                  </a> <!-- launchPIDS(http://192.168.4.94:8090/ntmc_admin_portal/login/, Login :: Prison Inmate Admin Portal) -->
+                  <span class="method-name">launchPIDS</span>
+                  <span class="parameters">(http://192.168.4.94:8090/ntmc_admin_portal/login/, Login :: Prison Inmate Admin Portal)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="launchUserAssignment(User Assignment, User Management :: Prison Inmate Admin Portal)">
+                  </a> <!-- launchUserAssignment(User Assignment, User Management :: Prison Inmate Admin Portal) -->
+                  <span class="method-name">launchUserAssignment</span>
+                  <span class="parameters">(User Assignment, User Management :: Prison Inmate Admin Portal)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginPIDS(central_admin_auto, 123456, Dashboard, Welcome: Automation Admin)">
+                  </a> <!-- loginPIDS(central_admin_auto, 123456, Dashboard, Welcome: Automation Admin) -->
+                  <span class="method-name">loginPIDS</span>
+                  <span class="parameters">(central_admin_auto, 123456, Dashboard, Welcome: Automation Admin)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="openAFIS(AFIS Adjudication, Adjudication :: Prison Inmate Admin Portal)">
+                  </a> <!-- openAFIS(AFIS Adjudication, Adjudication :: Prison Inmate Admin Portal) -->
+                  <span class="method-name">openAFIS</span>
+                  <span class="parameters">(AFIS Adjudication, Adjudication :: Prison Inmate Admin Portal)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="openRoleManagement(Role Management, User Management :: Prison Inmate Admin Portal)">
+                  </a> <!-- openRoleManagement(Role Management, User Management :: Prison Inmate Admin Portal) -->
+                  <span class="method-name">openRoleManagement</span>
+                  <span class="parameters">(Role Management, User Management :: Prison Inmate Admin Portal)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="openSearch(Search, Search :: Prison Inmate Admin Portal)">
+                  </a> <!-- openSearch(Search, Search :: Prison Inmate Admin Portal) -->
+                  <span class="method-name">openSearch</span>
+                  <span class="parameters">(Search, Search :: Prison Inmate Admin Portal)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="openUserManagement(User Management, User Management :: Prison Inmate Admin Portal)">
+                  </a> <!-- openUserManagement(User Management, User Management :: Prison Inmate Admin Portal) -->
+                  <span class="method-name">openUserManagement</span>
+                  <span class="parameters">(User Management, User Management :: Prison Inmate Admin Portal)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="seachByCaseNo(Bogra - District Jail, 06072022-003)">
+                  </a> <!-- seachByCaseNo(Bogra - District Jail, 06072022-003) -->
+                  <span class="method-name">seachByCaseNo</span>
+                  <span class="parameters">(Bogra - District Jail, 06072022-003)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="seachByPrisonerID(6072022-002, Bogra - District Jail, Under trial)">
+                  </a> <!-- seachByPrisonerID(6072022-002, Bogra - District Jail, Under trial) -->
+                  <span class="method-name">seachByPrisonerID</span>
+                  <span class="parameters">(6072022-002, Bogra - District Jail, Under trial)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="seachByPrisonerName(Bogra - District Jail, Mosan)">
+                  </a> <!-- seachByPrisonerName(Bogra - District Jail, Mosan) -->
+                  <span class="method-name">seachByPrisonerName</span>
+                  <span class="parameters">(Bogra - District Jail, Mosan)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchLookup(90002, Test90002)">
+                  </a> <!-- searchLookup(90002, Test90002) -->
+                  <span class="method-name">searchLookup</span>
+                  <span class="parameters">(90002, Test90002)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchPrison(Test_Prison_Rano)">
+                  </a> <!-- searchPrison(Test_Prison_Rano) -->
+                  <span class="method-name">searchPrison</span>
+                  <span class="parameters">(Test_Prison_Rano)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchRole(Role Management, User Management :: Prison Inmate Admin Portal, Test Admin Rano)">
+                  </a> <!-- searchRole(Role Management, User Management :: Prison Inmate Admin Portal, Test Admin Rano) -->
+                  <span class="method-name">searchRole</span>
+                  <span class="parameters">(Role Management, User Management :: Prison Inmate Admin Portal, Test Admin Rano)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchUser(Test_Rano, Jail Admin)">
+                  </a> <!-- searchUser(Test_Rano, Jail Admin) -->
+                  <span class="method-name">searchUser</span>
+                  <span class="parameters">(Test_Rano, Jail Admin)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="updateLookup(Test90003, Inactive)">
+                  </a> <!-- updateLookup(Test90003, Inactive) -->
+                  <span class="method-name">updateLookup</span>
+                  <span class="parameters">(Test90003, Inactive)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="updatePrison(Test_Prison_Rano1, Rajshahi3, test@tigerit1234.com, Inactive)">
+                  </a> <!-- updatePrison(Test_Prison_Rano1, Rajshahi3, test@tigerit1234.com, Inactive) -->
+                  <span class="method-name">updatePrison</span>
+                  <span class="parameters">(Test_Prison_Rano1, Rajshahi3, test@tigerit1234.com, Inactive)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="updateUser(Sanaul Rano, Jail Operator, Inactive, 01711084451)">
+                  </a> <!-- updateUser(Sanaul Rano, Jail Operator, Inactive, 01711084451) -->
+                  <span class="method-name">updateUser</span>
+                  <span class="parameters">(Sanaul Rano, Jail Operator, Inactive, 01711084451)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="updatehRole(Test_Admin_Rano, Test Admin Rano1)">
+                  </a> <!-- updatehRole(Test_Admin_Rano, Test Admin Rano1) -->
+                  <span class="method-name">updatehRole</span>
+                  <span class="parameters">(Test_Admin_Rano, Test Admin Rano1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Regession-Suite-class-passed -->
+        </div> <!-- panel Regession-Suite -->
+        <div panel-name="test-xml-Regession-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">E:\automation_workspace\PIDSRegression\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Regession-Suite&quot; parallel=&quot;none&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;util.CustomisedListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test name=&quot;PIDSRegression&quot;&gt;
+    &lt;parameter name=&quot;Role_Management_Page_Tile&quot; value=&quot;User Management :: Prison Inmate Admin Portal&quot;/&gt;
+    &lt;parameter name=&quot;Create_User_Mobile&quot; value=&quot;01711084451&quot;/&gt;
+    &lt;parameter name=&quot;Prisoner_No_AfisClear&quot; value=&quot;8/11/21/001&quot;/&gt;
+    &lt;parameter name=&quot;Search_Page_Title&quot; value=&quot;Search :: Prison Inmate Admin Portal&quot;/&gt;
+    &lt;parameter name=&quot;User_Management_Page_Title&quot; value=&quot;User Management :: Prison Inmate Admin Portal&quot;/&gt;
+    &lt;parameter name=&quot;Gender&quot; value=&quot;Male&quot;/&gt;
+    &lt;parameter name=&quot;Update_User_Mobile&quot; value=&quot;01711084451&quot;/&gt;
+    &lt;parameter name=&quot;PrisonerCategory&quot; value=&quot;Under trial&quot;/&gt;
+    &lt;parameter name=&quot;Create_User_Password&quot; value=&quot;985620&quot;/&gt;
+    &lt;parameter name=&quot;Update_Lookup_Value&quot; value=&quot;Test90003&quot;/&gt;
+    &lt;parameter name=&quot;Login_Page_Tile&quot; value=&quot;Login :: Prison Inmate Admin Portal&quot;/&gt;
+    &lt;parameter name=&quot;Update_Prison_Location&quot; value=&quot;Rajshahi3&quot;/&gt;
+    &lt;parameter name=&quot;Menu_Create_User&quot; value=&quot;Create User&quot;/&gt;
+    &lt;parameter name=&quot;MotherName&quot; value=&quot;(English)&quot;/&gt;
+    &lt;parameter name=&quot;Create_Prison_Code&quot; value=&quot;1000991&quot;/&gt;
+    &lt;parameter name=&quot;Create_Prison_eMail&quot; value=&quot;test@tigerit123.com&quot;/&gt;
+    &lt;parameter name=&quot;Update_Prison_eMail&quot; value=&quot;test@tigerit1234.com&quot;/&gt;
+    &lt;parameter name=&quot;Jail&quot; value=&quot;Bogra - District Jail&quot;/&gt;
+    &lt;parameter name=&quot;Status_Inactive&quot; value=&quot;Inactive&quot;/&gt;
+    &lt;parameter name=&quot;Lookup_Type&quot; value=&quot;TEST_LOOKUP&quot;/&gt;
+    &lt;parameter name=&quot;Update_Prison_Name&quot; value=&quot;Test_Prison_Rano1&quot;/&gt;
+    &lt;parameter name=&quot;Create_User_Role&quot; value=&quot;Jail Admin&quot;/&gt;
+    &lt;parameter name=&quot;Status_Active&quot; value=&quot;Active&quot;/&gt;
+    &lt;parameter name=&quot;Status_Complete&quot; value=&quot;Complete&quot;/&gt;
+    &lt;parameter name=&quot;Create_Prison_Location&quot; value=&quot;Rajshahi&quot;/&gt;
+    &lt;parameter name=&quot;Create_User_UserName&quot; value=&quot;Test_Rano&quot;/&gt;
+    &lt;parameter name=&quot;Create_Lookup_Code&quot; value=&quot;90002&quot;/&gt;
+    &lt;parameter name=&quot;Login_Password&quot; value=&quot;123456&quot;/&gt;
+    &lt;parameter name=&quot;Login_Welcome_Message&quot; value=&quot;Welcome: Automation Admin&quot;/&gt;
+    &lt;parameter name=&quot;Login_User&quot; value=&quot;central_admin_auto&quot;/&gt;
+    &lt;parameter name=&quot;Create_User_Name&quot; value=&quot;Sanaul Islam&quot;/&gt;
+    &lt;parameter name=&quot;Adjudication_Page_Title&quot; value=&quot;Adjudication :: Prison Inmate Admin Portal&quot;/&gt;
+    &lt;parameter name=&quot;Login_Breadcrumb&quot; value=&quot;Dashboard&quot;/&gt;
+    &lt;parameter name=&quot;Update_Role_DisplayName&quot; value=&quot;Test Admin Rano1&quot;/&gt;
+    &lt;parameter name=&quot;Menu_AFIS_Adjudication&quot; value=&quot;AFIS Adjudication&quot;/&gt;
+    &lt;parameter name=&quot;Create_Lookup_Value&quot; value=&quot;Test90002&quot;/&gt;
+    &lt;parameter name=&quot;URL&quot; value=&quot;http://192.168.4.94:8090/ntmc_admin_portal/login/&quot;/&gt;
+    &lt;parameter name=&quot;PrisonerName&quot; value=&quot;Mosan&quot;/&gt;
+    &lt;parameter name=&quot;CaseNo&quot; value=&quot;06072022-003&quot;/&gt;
+    &lt;parameter name=&quot;Status_Pending&quot; value=&quot;Pending&quot;/&gt;
+    &lt;parameter name=&quot;Create_Role_Code&quot; value=&quot;Test_Admin_Rano&quot;/&gt;
+    &lt;parameter name=&quot;Prisoner_No_AdvanceSearch&quot; value=&quot;1601/22&quot;/&gt;
+    &lt;parameter name=&quot;Setup_Page_Title&quot; value=&quot;Setup :: Prison Inmate Admin Portal&quot;/&gt;
+    &lt;parameter name=&quot;Update_User_Role&quot; value=&quot;Jail Operator&quot;/&gt;
+    &lt;parameter name=&quot;MobileNo&quot; value=&quot;01758135197&quot;/&gt;
+    &lt;parameter name=&quot;Prisoner_No_AfisMacthFound&quot; value=&quot;2211/2&quot;/&gt;
+    &lt;parameter name=&quot;Menu_Role_Management&quot; value=&quot;Role Management&quot;/&gt;
+    &lt;parameter name=&quot;Update_User_Name&quot; value=&quot;Sanaul Rano&quot;/&gt;
+    &lt;parameter name=&quot;NID&quot; value=&quot;2858546860&quot;/&gt;
+    &lt;parameter name=&quot;Menu_Search&quot; value=&quot;Search&quot;/&gt;
+    &lt;parameter name=&quot;PrisonerID&quot; value=&quot;6072022-002&quot;/&gt;
+    &lt;parameter name=&quot;Create_Prison_Name&quot; value=&quot;Test_Prison_Rano&quot;/&gt;
+    &lt;parameter name=&quot;Menu_Setup&quot; value=&quot;Setup&quot;/&gt;
+    &lt;parameter name=&quot;Create_Role_DisplayName&quot; value=&quot;Test Admin Rano&quot;/&gt;
+    &lt;parameter name=&quot;Menu_User_Assignment&quot; value=&quot;User Assignment&quot;/&gt;
+    &lt;parameter name=&quot;Menu_User_Management&quot; value=&quot;User Management&quot;/&gt;
+    &lt;parameter name=&quot;FatherName&quot; value=&quot;test. name (test)&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;regression.PidsRegressionSuite&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- PIDSRegression --&gt;
+&lt;/suite&gt; &lt;!-- Regession-Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Regession-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Regession-Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">PIDSRegression (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Regession-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Regession-Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Regession-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Regession-Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Regession-Suite');
+function tableData_Regession-Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(29);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'advancedSearch')
+data.setCell(0, 2, 'regression.PidsRegressionSuite')
+data.setCell(0, 3, 13190);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'createUser')
+data.setCell(1, 2, 'regression.PidsRegressionSuite')
+data.setCell(1, 3, 7419);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'searchUser')
+data.setCell(2, 2, 'regression.PidsRegressionSuite')
+data.setCell(2, 3, 4461);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'createLookup')
+data.setCell(3, 2, 'regression.PidsRegressionSuite')
+data.setCell(3, 3, 4364);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'assignUser')
+data.setCell(4, 2, 'regression.PidsRegressionSuite')
+data.setCell(4, 3, 4256);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'viewFingerPrints')
+data.setCell(5, 2, 'regression.PidsRegressionSuite')
+data.setCell(5, 3, 4228);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'searchRole')
+data.setCell(6, 2, 'regression.PidsRegressionSuite')
+data.setCell(6, 3, 3984);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'matchClearAFIS')
+data.setCell(7, 2, 'regression.PidsRegressionSuite')
+data.setCell(7, 3, 3572);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'matchVerifiedAFIS')
+data.setCell(8, 2, 'regression.PidsRegressionSuite')
+data.setCell(8, 3, 3537);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'clearCache')
+data.setCell(9, 2, 'regression.PidsRegressionSuite')
+data.setCell(9, 3, 3221);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'createPrison')
+data.setCell(10, 2, 'regression.PidsRegressionSuite')
+data.setCell(10, 3, 3183);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'seachByPrisonerName')
+data.setCell(11, 2, 'regression.PidsRegressionSuite')
+data.setCell(11, 3, 3164);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'seachByPrisonerID')
+data.setCell(12, 2, 'regression.PidsRegressionSuite')
+data.setCell(12, 3, 2914);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'searchLookup')
+data.setCell(13, 2, 'regression.PidsRegressionSuite')
+data.setCell(13, 3, 2854);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'seachByCaseNo')
+data.setCell(14, 2, 'regression.PidsRegressionSuite')
+data.setCell(14, 3, 2776);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'searchPrison')
+data.setCell(15, 2, 'regression.PidsRegressionSuite')
+data.setCell(15, 3, 2686);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'updatePrison')
+data.setCell(16, 2, 'regression.PidsRegressionSuite')
+data.setCell(16, 3, 2589);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'seachByNID')
+data.setCell(17, 2, 'regression.PidsRegressionSuite')
+data.setCell(17, 3, 2500);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'loginPIDS')
+data.setCell(18, 2, 'regression.PidsRegressionSuite')
+data.setCell(18, 3, 2081);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'openUserManagement')
+data.setCell(19, 2, 'regression.PidsRegressionSuite')
+data.setCell(19, 3, 1969);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'updateLookup')
+data.setCell(20, 2, 'regression.PidsRegressionSuite')
+data.setCell(20, 3, 1857);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'createRole')
+data.setCell(21, 2, 'regression.PidsRegressionSuite')
+data.setCell(21, 3, 1767);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'updateUser')
+data.setCell(22, 2, 'regression.PidsRegressionSuite')
+data.setCell(22, 3, 1343);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'openSearch')
+data.setCell(23, 2, 'regression.PidsRegressionSuite')
+data.setCell(23, 3, 1083);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'updatehRole')
+data.setCell(24, 2, 'regression.PidsRegressionSuite')
+data.setCell(24, 3, 923);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'openRoleManagement')
+data.setCell(25, 2, 'regression.PidsRegressionSuite')
+data.setCell(25, 3, 836);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'launchPIDS')
+data.setCell(26, 2, 'regression.PidsRegressionSuite')
+data.setCell(26, 3, 822);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'launchUserAssignment')
+data.setCell(27, 2, 'regression.PidsRegressionSuite')
+data.setCell(27, 3, 766);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'openAFIS')
+data.setCell(28, 2, 'regression.PidsRegressionSuite')
+data.setCell(28, 3, 705);
+window.suiteTableData['Regession-Suite']= { tableData: data, tableDiv: 'times-div-Regession-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Regession-Suite">
+              </div> <!-- times-div-Regession-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Regession-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Regession-Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Regession-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Regession-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">regression.PidsRegressionSuite</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">OpenBrowser</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">launchPIDS(http://192.168.4.94:8090/ntmc_admin_portal/login/, Login :: Prison Inmate Admin Portal)</span>
+                <span class="method-start">7842 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">capture([TestResult name=launchPIDS status=SUCCESS method=PidsRegressionSuite.launchPIDS(java.lang.String, j...)</span>
+                <span class="method-start">8666 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">loginPIDS(central_admin_auto, 123456, Dashboard, Welcome: Automation Admin)</span>
+                <span class="method-start">8935 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">capture([TestResult name=loginPIDS status=SUCCESS method=PidsRegressionSuite.loginPIDS(java.lang.String, jav...)</span>
+                <span class="method-start">11016 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">openUserManagement(User Management, User Management :: Prison Inmate Admin Portal)</span>
+                <span class="method-start">11185 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">capture([TestResult name=openUserManagement status=SUCCESS method=PidsRegressionSuite.openUserManagement(jav...)</span>
+                <span class="method-start">13155 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">createUser(Create User, Test_Rano, 985620, Sanaul Islam, 01711084451, Jail Admin, Active)</span>
+                <span class="method-start">13482 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">capture([TestResult name=createUser status=SUCCESS method=PidsRegressionSuite.createUser(java.lang.String, j...)</span>
+                <span class="method-start">20902 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">searchUser(Test_Rano, Jail Admin)</span>
+                <span class="method-start">21157 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">capture([TestResult name=searchUser status=SUCCESS method=PidsRegressionSuite.searchUser(java.lang.String, j...)</span>
+                <span class="method-start">25620 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">updateUser(Sanaul Rano, Jail Operator, Inactive, 01711084451)</span>
+                <span class="method-start">25844 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">capture([TestResult name=updateUser status=SUCCESS method=PidsRegressionSuite.updateUser(java.lang.String, j...)</span>
+                <span class="method-start">27187 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">openRoleManagement(Role Management, User Management :: Prison Inmate Admin Portal)</span>
+                <span class="method-start">27407 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">capture([TestResult name=openRoleManagement status=SUCCESS method=PidsRegressionSuite.openRoleManagement(jav...)</span>
+                <span class="method-start">28244 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">createRole(Test_Admin_Rano, Test Admin Rano)</span>
+                <span class="method-start">28399 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">capture([TestResult name=createRole status=SUCCESS method=PidsRegressionSuite.createRole(java.lang.String, j...)</span>
+                <span class="method-start">30167 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">clearCache(Setup, Setup :: Prison Inmate Admin Portal)</span>
+                <span class="method-start">30781 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">capture([TestResult name=clearCache status=SUCCESS method=PidsRegressionSuite.clearCache(java.lang.String, j...)</span>
+                <span class="method-start">34003 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">searchRole(Role Management, User Management :: Prison Inmate Admin Portal, Test Admin Rano)</span>
+                <span class="method-start">34147 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">capture([TestResult name=searchRole status=SUCCESS method=PidsRegressionSuite.searchRole(java.lang.String, j...)</span>
+                <span class="method-start">38132 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">updatehRole(Test_Admin_Rano, Test Admin Rano1)</span>
+                <span class="method-start">38270 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">capture([TestResult name=updatehRole status=SUCCESS method=PidsRegressionSuite.updatehRole(java.lang.String,...)</span>
+                <span class="method-start">39193 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">launchUserAssignment(User Assignment, User Management :: Prison Inmate Admin Portal)</span>
+                <span class="method-start">39409 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">capture([TestResult name=launchUserAssignment status=SUCCESS method=PidsRegressionSuite.launchUserAssignment...)</span>
+                <span class="method-start">40176 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">assignUser(Test_Rano, Bogra - District Jail)</span>
+                <span class="method-start">40347 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">capture([TestResult name=assignUser status=SUCCESS method=PidsRegressionSuite.assignUser(java.lang.String, j...)</span>
+                <span class="method-start">44603 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">createPrison(Test_Prison_Rano, 1000991, Rajshahi, test@tigerit123.com, Active)</span>
+                <span class="method-start">44838 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">capture([TestResult name=createPrison status=SUCCESS method=PidsRegressionSuite.createPrison(java.lang.Strin...)</span>
+                <span class="method-start">48021 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">searchPrison(Test_Prison_Rano)</span>
+                <span class="method-start">48221 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">capture([TestResult name=searchPrison status=SUCCESS method=PidsRegressionSuite.searchPrison(java.lang.Strin...)</span>
+                <span class="method-start">50908 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">updatePrison(Test_Prison_Rano1, Rajshahi3, test@tigerit1234.com, Inactive)</span>
+                <span class="method-start">51140 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">capture([TestResult name=updatePrison status=SUCCESS method=PidsRegressionSuite.updatePrison(java.lang.Strin...)</span>
+                <span class="method-start">53730 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">createLookup(TEST_LOOKUP, 90002, Test90002, Active)</span>
+                <span class="method-start">54015 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">capture([TestResult name=createLookup status=SUCCESS method=PidsRegressionSuite.createLookup(java.lang.Strin...)</span>
+                <span class="method-start">58379 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">searchLookup(90002, Test90002)</span>
+                <span class="method-start">58626 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">capture([TestResult name=searchLookup status=SUCCESS method=PidsRegressionSuite.searchLookup(java.lang.Strin...)</span>
+                <span class="method-start">61480 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">updateLookup(Test90003, Inactive)</span>
+                <span class="method-start">61616 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">capture([TestResult name=updateLookup status=SUCCESS method=PidsRegressionSuite.updateLookup(java.lang.Strin...)</span>
+                <span class="method-start">63474 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">openSearch(Search, Search :: Prison Inmate Admin Portal)</span>
+                <span class="method-start">63664 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">capture([TestResult name=openSearch status=SUCCESS method=PidsRegressionSuite.openSearch(java.lang.String, j...)</span>
+                <span class="method-start">64748 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">seachByPrisonerID(6072022-002, Bogra - District Jail, Under trial)</span>
+                <span class="method-start">64925 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">capture([TestResult name=seachByPrisonerID status=SUCCESS method=PidsRegressionSuite.seachByPrisonerID(java....)</span>
+                <span class="method-start">67839 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">seachByPrisonerName(Bogra - District Jail, Mosan)</span>
+                <span class="method-start">67987 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">capture([TestResult name=seachByPrisonerName status=SUCCESS method=PidsRegressionSuite.seachByPrisonerName(j...)</span>
+                <span class="method-start">71152 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">seachByNID(Bogra - District Jail, 2858546860)</span>
+                <span class="method-start">71309 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">capture([TestResult name=seachByNID status=FAILURE method=PidsRegressionSuite.seachByNID(java.lang.String, j...)</span>
+                <span class="method-start">73961 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">seachByCaseNo(Bogra - District Jail, 06072022-003)</span>
+                <span class="method-start">74095 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">capture([TestResult name=seachByCaseNo status=SUCCESS method=PidsRegressionSuite.seachByCaseNo(java.lang.Str...)</span>
+                <span class="method-start">76872 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">advancedSearch(1601/22, test. name (test), (English), Male, 01758135197)</span>
+                <span class="method-start">77019 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">capture([TestResult name=advancedSearch status=FAILURE method=PidsRegressionSuite.advancedSearch(java.lang.S...)</span>
+                <span class="method-start">90211 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">openAFIS(AFIS Adjudication, Adjudication :: Prison Inmate Admin Portal)</span>
+                <span class="method-start">90355 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">capture([TestResult name=openAFIS status=SUCCESS method=PidsRegressionSuite.openAFIS(java.lang.String, java....)</span>
+                <span class="method-start">91061 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">matchVerifiedAFIS(Pending, 2211/2)</span>
+                <span class="method-start">91226 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">capture([TestResult name=matchVerifiedAFIS status=FAILURE method=PidsRegressionSuite.matchVerifiedAFIS(java....)</span>
+                <span class="method-start">94764 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">matchClearAFIS(Pending, 8/11/21/001)</span>
+                <span class="method-start">94895 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">capture([TestResult name=matchClearAFIS status=FAILURE method=PidsRegressionSuite.matchClearAFIS(java.lang.S...)</span>
+                <span class="method-start">98468 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">viewFingerPrints(Pending, 2211/2)</span>
+                <span class="method-start">98608 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">capture([TestResult name=viewFingerPrints status=FAILURE method=PidsRegressionSuite.viewFingerPrints(java.la...)</span>
+                <span class="method-start">102837 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">Quit</span>
+                <span class="method-start">102978 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

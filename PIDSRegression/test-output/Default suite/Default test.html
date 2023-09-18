@@ -1,0 +1,283 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>28/0/1</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Jul 25 14:44:09 BDT 2022</td>
+</tr>
+<tr><td>Total time:</td><td>1270 seconds (1270773 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='regression.PidsRegressionSuite.advancedSearch()'><b>advancedSearch</b><br>Test class: regression.PidsRegressionSuite</td>
+<td></td>
+<td>12</td>
+<td>regression.PidsRegressionSuite@2cfb4a64</td></tr>
+<tr>
+<td title='regression.PidsRegressionSuite.assignUser()'><b>assignUser</b><br>Test class: regression.PidsRegressionSuite</td>
+<td></td>
+<td>4</td>
+<td>regression.PidsRegressionSuite@2cfb4a64</td></tr>
+<tr>
+<td title='regression.PidsRegressionSuite.clearCache()'><b>clearCache</b><br>Test class: regression.PidsRegressionSuite</td>
+<td></td>
+<td>5</td>
+<td>regression.PidsRegressionSuite@2cfb4a64</td></tr>
+<tr>
+<td title='regression.PidsRegressionSuite.createLookup()'><b>createLookup</b><br>Test class: regression.PidsRegressionSuite</td>
+<td></td>
+<td>4</td>
+<td>regression.PidsRegressionSuite@2cfb4a64</td></tr>
+<tr>
+<td title='regression.PidsRegressionSuite.createPrison()'><b>createPrison</b><br>Test class: regression.PidsRegressionSuite</td>
+<td></td>
+<td>3</td>
+<td>regression.PidsRegressionSuite@2cfb4a64</td></tr>
+<tr>
+<td title='regression.PidsRegressionSuite.createRole()'><b>createRole</b><br>Test class: regression.PidsRegressionSuite</td>
+<td></td>
+<td>3</td>
+<td>regression.PidsRegressionSuite@2cfb4a64</td></tr>
+<tr>
+<td title='regression.PidsRegressionSuite.createUser()'><b>createUser</b><br>Test class: regression.PidsRegressionSuite</td>
+<td></td>
+<td>8</td>
+<td>regression.PidsRegressionSuite@2cfb4a64</td></tr>
+<tr>
+<td title='regression.PidsRegressionSuite.launchPIDS()'><b>launchPIDS</b><br>Test class: regression.PidsRegressionSuite</td>
+<td></td>
+<td>5</td>
+<td>regression.PidsRegressionSuite@2cfb4a64</td></tr>
+<tr>
+<td title='regression.PidsRegressionSuite.launchUserAssignment()'><b>launchUserAssignment</b><br>Test class: regression.PidsRegressionSuite</td>
+<td></td>
+<td>0</td>
+<td>regression.PidsRegressionSuite@2cfb4a64</td></tr>
+<tr>
+<td title='regression.PidsRegressionSuite.loginPIDS()'><b>loginPIDS</b><br>Test class: regression.PidsRegressionSuite</td>
+<td></td>
+<td>2</td>
+<td>regression.PidsRegressionSuite@2cfb4a64</td></tr>
+<tr>
+<td title='regression.PidsRegressionSuite.matchClearAFIS()'><b>matchClearAFIS</b><br>Test class: regression.PidsRegressionSuite</td>
+<td></td>
+<td>827</td>
+<td>regression.PidsRegressionSuite@2cfb4a64</td></tr>
+<tr>
+<td title='regression.PidsRegressionSuite.openAFIS()'><b>openAFIS</b><br>Test class: regression.PidsRegressionSuite</td>
+<td></td>
+<td>0</td>
+<td>regression.PidsRegressionSuite@2cfb4a64</td></tr>
+<tr>
+<td title='regression.PidsRegressionSuite.openRoleManagement()'><b>openRoleManagement</b><br>Test class: regression.PidsRegressionSuite</td>
+<td></td>
+<td>1</td>
+<td>regression.PidsRegressionSuite@2cfb4a64</td></tr>
+<tr>
+<td title='regression.PidsRegressionSuite.openSearch()'><b>openSearch</b><br>Test class: regression.PidsRegressionSuite</td>
+<td></td>
+<td>1</td>
+<td>regression.PidsRegressionSuite@2cfb4a64</td></tr>
+<tr>
+<td title='regression.PidsRegressionSuite.openUserManagement()'><b>openUserManagement</b><br>Test class: regression.PidsRegressionSuite</td>
+<td></td>
+<td>5</td>
+<td>regression.PidsRegressionSuite@2cfb4a64</td></tr>
+<tr>
+<td title='regression.PidsRegressionSuite.seachByCaseNo()'><b>seachByCaseNo</b><br>Test class: regression.PidsRegressionSuite</td>
+<td></td>
+<td>3</td>
+<td>regression.PidsRegressionSuite@2cfb4a64</td></tr>
+<tr>
+<td title='regression.PidsRegressionSuite.seachByNID()'><b>seachByNID</b><br>Test class: regression.PidsRegressionSuite</td>
+<td></td>
+<td>9</td>
+<td>regression.PidsRegressionSuite@2cfb4a64</td></tr>
+<tr>
+<td title='regression.PidsRegressionSuite.seachByPrisonerID()'><b>seachByPrisonerID</b><br>Test class: regression.PidsRegressionSuite</td>
+<td></td>
+<td>3</td>
+<td>regression.PidsRegressionSuite@2cfb4a64</td></tr>
+<tr>
+<td title='regression.PidsRegressionSuite.seachByPrisonerName()'><b>seachByPrisonerName</b><br>Test class: regression.PidsRegressionSuite</td>
+<td></td>
+<td>3</td>
+<td>regression.PidsRegressionSuite@2cfb4a64</td></tr>
+<tr>
+<td title='regression.PidsRegressionSuite.searchLookup()'><b>searchLookup</b><br>Test class: regression.PidsRegressionSuite</td>
+<td></td>
+<td>3</td>
+<td>regression.PidsRegressionSuite@2cfb4a64</td></tr>
+<tr>
+<td title='regression.PidsRegressionSuite.searchPrison()'><b>searchPrison</b><br>Test class: regression.PidsRegressionSuite</td>
+<td></td>
+<td>2</td>
+<td>regression.PidsRegressionSuite@2cfb4a64</td></tr>
+<tr>
+<td title='regression.PidsRegressionSuite.searchRole()'><b>searchRole</b><br>Test class: regression.PidsRegressionSuite</td>
+<td></td>
+<td>4</td>
+<td>regression.PidsRegressionSuite@2cfb4a64</td></tr>
+<tr>
+<td title='regression.PidsRegressionSuite.searchUser()'><b>searchUser</b><br>Test class: regression.PidsRegressionSuite</td>
+<td></td>
+<td>5</td>
+<td>regression.PidsRegressionSuite@2cfb4a64</td></tr>
+<tr>
+<td title='regression.PidsRegressionSuite.updateLookup()'><b>updateLookup</b><br>Test class: regression.PidsRegressionSuite</td>
+<td></td>
+<td>2</td>
+<td>regression.PidsRegressionSuite@2cfb4a64</td></tr>
+<tr>
+<td title='regression.PidsRegressionSuite.updatePrison()'><b>updatePrison</b><br>Test class: regression.PidsRegressionSuite</td>
+<td></td>
+<td>4</td>
+<td>regression.PidsRegressionSuite@2cfb4a64</td></tr>
+<tr>
+<td title='regression.PidsRegressionSuite.updateUser()'><b>updateUser</b><br>Test class: regression.PidsRegressionSuite</td>
+<td></td>
+<td>2</td>
+<td>regression.PidsRegressionSuite@2cfb4a64</td></tr>
+<tr>
+<td title='regression.PidsRegressionSuite.updatehRole()'><b>updatehRole</b><br>Test class: regression.PidsRegressionSuite</td>
+<td></td>
+<td>1</td>
+<td>regression.PidsRegressionSuite@2cfb4a64</td></tr>
+<tr>
+<td title='regression.PidsRegressionSuite.viewFingerPrints()'><b>viewFingerPrints</b><br>Test class: regression.PidsRegressionSuite</td>
+<td></td>
+<td>280</td>
+<td>regression.PidsRegressionSuite@2cfb4a64</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='regression.PidsRegressionSuite.matchVerifiedAFIS()'><b>matchVerifiedAFIS</b><br>Test class: regression.PidsRegressionSuite</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;Status&apos; is required by @Test on method matchVerifiedAFIS but has not been marked @Optional or defined
+in C:\Users\Rano\AppData\Local\Temp\testng-eclipse-747481188\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:159)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:372)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:462)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1303)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:1019)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1108)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1200)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1125)
+	at org.testng.TestNG.run(TestNG.java:1033)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1887115844", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1887115844'><pre>org.testng.TestNGException: 
+Parameter &apos;Status&apos; is required by @Test on method matchVerifiedAFIS but has not been marked @Optional or defined
+in C:\Users\Rano\AppData\Local\Temp\testng-eclipse-747481188\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:159)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:372)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:462)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1303)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:1019)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1108)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1200)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1125)
+	at org.testng.TestNG.run(TestNG.java:1033)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div></td>
+<td>0</td>
+<td>regression.PidsRegressionSuite@2cfb4a64</td></tr>
+</table><p>
+</body>
+</html>
